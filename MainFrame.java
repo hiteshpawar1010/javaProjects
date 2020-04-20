@@ -6,7 +6,7 @@ import java.util.*;
 import javax.swing.*;
 
 class Ball extends Thread{
-		int x,y,dy,no;
+		int x,y,dy;
 		Color c;
 		MyPanel p;
 
@@ -18,7 +18,7 @@ class Ball extends Thread{
 
 			dy = 1;
 
-			no = (int)(Math.random()*10);
+		
 		}
 
 		public void run(){
